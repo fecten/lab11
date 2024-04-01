@@ -1,19 +1,4 @@
 CONFLICT:
-Auto-merging readme.txt
-CONFLICT (content): Merge conflict in readme.txt
-Automatic merge failed; fix conflicts and then commit the result.
-On branch master
-You have unmerged paths.
-  (fix conflicts and run "git commit")
-  (use "git merge --abort" to abort the merge)
-
-Changes to be committed:
-	modified:   conflictLab.txt
-
-Unmerged paths:
-  (use "git add <file>..." to mark resolution)
-	both modified:   readme.txt
-
 Git is so cool!
 This is the first time I am actually learning git, and
 not feeling completely lost or overwhelemd. 
@@ -26,6 +11,8 @@ This is a new line: HELLO!
 =======
 This is a new line: BYE BYE!
 >>>>>>> update-readme
+
+RESOLUTION:
 Git is so cool!
 This is the first time I am actually learning git, and
 not feeling completely lost or overwhelemd. 
@@ -34,3 +21,127 @@ But now it feels super natural.
 I added this line in the update-readme branch.
 More commits more adds and more branches! We love trees and pushes!
 This is a new line: BYE BYE!
+
+TREE:
+*   commit bef047644ad11c305a51a387208314af77b03e5d
+|\  Merge: 094e776 d1203eb
+| | Author: fecten <adamalymalick@gmail.com>
+| | Date:   Mon Apr 1 12:28:28 2024 -0400
+| | 
+| |     resolved conflict
+| | 
+| * commit d1203eb703a95b0c31728acb7a334395da8d75a0
+| | Author: fecten <adamalymalick@gmail.com>
+| | Date:   Mon Apr 1 12:21:50 2024 -0400
+| | 
+| |     bye bye
+| | 
+* | commit 094e776a86a1fa06b61e04a2254c08374d0c16ef
+| | Author: fecten <adamalymalick@gmail.com>
+| | Date:   Mon Apr 1 12:22:51 2024 -0400
+| | 
+| |     HELLO
+| | 
+* | commit fd3e81caf08b8ed85e4f6896bc9a0e7bc3420e69
+|\| Merge: 1eda796 5a1163c
+| | Author: fecten <adamalymalick@gmail.com>
+| | Date:   Mon Apr 1 12:19:33 2024 -0400
+| | 
+| |     Merge branch 'update-readme'
+| |     Learning to merge not sure if they are both updated and trying to
+| |     a merge error.
+| | 
+| * commit 5a1163c81f5f028a4ddb8fe0ba031bcaa47fab9f
+| | Author: fecten <adamalymalick@gmail.com>
+| | Date:   Mon Apr 1 12:19:15 2024 -0400
+| | 
+| |     bye
+| | 
+* | commit 1eda79643a8323fed1a64ad6f1fecd1f18c0ed9a
+| | Author: fecten <adamalymalick@gmail.com>
+| | Date:   Mon Apr 1 12:16:41 2024 -0400
+| | 
+| |     the lab requirements
+| | 
+* | commit 13fd8efd73da46723ef67470296a7946cf48969e
+|\| Merge: 3c5e0ab 5773837
+| | Author: fecten <adamalymalick@gmail.com>
+| | Date:   Mon Apr 1 12:09:45 2024 -0400
+| | 
+| |     Merge branch 'update-readme'
+| | 
+| * commit 5773837d3667569b55dbafb2b9202c93bfae5ad2
+| | Author: fecten <adamalymalick@gmail.com>
+| | Date:   Mon Apr 1 12:08:58 2024 -0400
+| | 
+| |     added hi at bottom
+| | 
+* | commit 3c5e0ab80ef92576e43f2c834814bd26cb9b5f4f
+|\| Merge: 52a80e4 6447254
+| | Author: fecten <adamalymalick@gmail.com>
+| | Date:   Mon Apr 1 12:03:11 2024 -0400
+| | 
+| |     resolved conflict
+| | 
+| * commit 644725440de289452e086dc62f91f16e6740de67
+| | Author: fecten <adamalymalick@gmail.com>
+| | Date:   Mon Apr 1 11:56:29 2024 -0400
+| | 
+| |     added pushes to end of last line
+| | 
+* | commit 52a80e4bb816c4b7db1faff81baf06141fd6c057
+|/  Author: fecten <adamalymalick@gmail.com>
+|   Date:   Mon Apr 1 11:58:54 2024 -0400
+|   
+|       for fun
+| 
+* commit 3988bb4193ced5a4e4c5e837e6211702f701b819
+| Author: fecten <adamalymalick@gmail.com>
+| Date:   Mon Apr 1 11:54:03 2024 -0400
+| 
+|     added line about trees
+| 
+* commit 35383b9e321dcadebbff3d37eda4159099208307
+| Author: fecten <adamalymalick@gmail.com>
+| Date:   Mon Apr 1 11:52:16 2024 -0400
+| 
+|     added a line to readme.txt
+| 
+* commit e4a6f8fd8b761a543707cb2774cff0db52083e18
+| Author: fecten <adamalymalick@gmail.com>
+| Date:   Mon Apr 1 11:34:07 2024 -0400
+| 
+|     added git ignore
+| 
+* commit 3611fe31c9a16337b59093db27837baad425da98
+| Author: fecten <adamalymalick@gmail.com>
+| Date:   Mon Apr 1 11:31:47 2024 -0400
+| 
+|     edited readme.txt
+| 
+* commit 31e6a330cc39c812e11f6f52f03eca55e50de9a4
+| Author: fecten <adamalymalick@gmail.com>
+| Date:   Mon Apr 1 11:22:07 2024 -0400
+| 
+|     added two files and edited readme.txt
+| 
+* commit a688e01ec26481d63780f271b685228693f15c85
+  Author: fecten <adamalymalick@gmail.com>
+  Date:   Mon Apr 1 11:15:18 2024 -0400
+  
+      added readme.txt
+CONFLICT:
+Auto-merging readme.txt
+CONFLICT (content): Merge conflict in readme.txt
+Automatic merge failed; fix conflicts and then commit the result.
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+        modified:   conflictLab.txt
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   readme.txt
