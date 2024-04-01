@@ -1,3 +1,5 @@
 Git is so cool!
-Yes we are the best at using git and I really want to get
-good at using it for the future.
+This is the first time I am actually learning git, and
+not feeling completely lost or overwhelemd. 
+Did it once and it was really confusing.
+But now it feels super natural.
