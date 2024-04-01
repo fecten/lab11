@@ -1,1 +1,36 @@
-Already up to date.
+CONFLICT:
+Auto-merging readme.txt
+CONFLICT (content): Merge conflict in readme.txt
+Automatic merge failed; fix conflicts and then commit the result.
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+	modified:   conflictLab.txt
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	both modified:   readme.txt
+
+Git is so cool!
+This is the first time I am actually learning git, and
+not feeling completely lost or overwhelemd. 
+Did it once and it was really confusing.
+But now it feels super natural.
+I added this line in the update-readme branch.
+More commits more adds and more branches! We love trees and pushes!
+<<<<<<< HEAD
+This is a new line: HELLO!
+=======
+This is a new line: BYE BYE!
+>>>>>>> update-readme
+Git is so cool!
+This is the first time I am actually learning git, and
+not feeling completely lost or overwhelemd. 
+Did it once and it was really confusing.
+But now it feels super natural.
+I added this line in the update-readme branch.
+More commits more adds and more branches! We love trees and pushes!
+This is a new line: BYE BYE!
